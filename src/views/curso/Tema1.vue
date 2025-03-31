@@ -53,18 +53,18 @@
       .p-4.p-md-5
         SlyderA(tipo="b").bg-white
           .row.align-items-center.p-4.p-md-5
-            .col-lg-5.order-lg-2
+            .col-lg-5.order-lg-2.mb-3.mb-lg-0
               figure
                 img(src="@/assets/curso/tema1/4.png")
-            .col-lg-7.order-lg-1.mb-3.mb-lg-0
+            .col-lg-7.order-lg-1
               h5 Microeconomía
               p Se enfoca en el comportamiento de los agentes económicos individuales, como consumidores, empresas y trabajadores. Examina cómo toman decisiones, cómo interactúan en los mercados y cómo se determinan los precios y las cantidades de bienes y servicios en función de la oferta y la demanda. También analiza aspectos como la elasticidad de la demanda, que mide cómo varía la cantidad demandada ante cambios en el precio, la estructura del mercado, que determina el grado de competencia entre empresas, y los costos de producción, los cuales influyen en la rentabilidad de las organizaciones. La microeconomía permite comprender fenómenos como la fijación de precios, la toma de decisiones en los hogares y las estrategias de las empresas para maximizar sus beneficios.
     
           .row.align-items-center.p-4.p-md-5
-            .col-lg-5.order-lg-2
+            .col-lg-5.order-lg-2.mb-3.mb-lg-0
               figure
                 img(src="@/assets/curso/tema1/5.png")
-            .col-lg-7.order-lg-1.mb-3.mb-lg-0
+            .col-lg-7.order-lg-1
               h5 Macroeconomía
               p Estudia el funcionamiento general de la economía a nivel nacional e internacional, centrándose en variables agregadas como el crecimiento económico, la inflación, el desempleo y las políticas monetarias y fiscales. Su análisis permite evaluar la estabilidad económica de un país y diseñar estrategias para mejorar su desarrollo. A través de indicadores como el producto interno bruto (PIB), que mide el valor total de los bienes y servicios producidos en un país, el índice de precios al consumidor (IPC), que refleja el comportamiento de la inflación, y la tasa de desempleo, que muestra el porcentaje de la población económicamente activa sin trabajo, la macroeconomía ayuda a comprender la evolución de una economía y a anticipar posibles crisis o períodos de expansión. Además, examina el papel del comercio internacional, los ciclos económicos y las intervenciones del Estado en el sistema financiero.
     
@@ -130,8 +130,8 @@
             p Otro elemento clave en el estudio de la economía es la toma de decisiones, porque tanto los individuos como las empresas y los gobiernos enfrentan constantemente elecciones sobre cómo emplear sus recursos. La economía analiza cómo estos agentes comparan costos y beneficios antes de tomar una decisión, buscando siempre la alternativa que les proporcione mayor utilidad o rentabilidad. 
             p Las decisiones económicas pueden observarse en situaciones cotidianas, como la elección de un consumidor, sobre qué productos adquirir en función de su presupuesto, la determinación de una empresa sobre cuánto producir y a qué precio vender, o la formulación de políticas gubernamentales destinadas a estimular ciertos sectores económicos. Además, la toma de decisiones en economía, se ve influenciada por factores externos como el nivel de ingresos, la disponibilidad de crédito, la estabilidad política y el acceso a la información. Comprender estos factores permite predecir el comportamiento de los agentes económicos y evaluar las consecuencias de sus elecciones en los mercados y en la economía en su conjunto.
     
-    .row.mb-5
-      .col-lg-2.mb-3.mb-lg-0.order-lg-2
+    .row.mb-5.justify-content-center
+      .col-md-6.col-lg-2.mb-3.mb-lg-0.order-lg-2
         figure
           img(src="@/assets/curso/tema1/11.png", data-aos="zoom-in")
       .col-lg-10(data-aos="fade-left").order-lg-1
@@ -151,7 +151,7 @@
               p.mb-0 Además de la asignación de recursos y la toma de decisiones, la economía estudia la interacción entre los agentes económicos, es decir, cómo los consumidores, productores y el Estado, influyen en el funcionamiento del mercado. Los consumidores determinan la demanda de bienes y servicios en función de sus preferencias, necesidades y capacidad de compra, mientras que las empresas configuran la oferta, ajustando su producción en función de sus costos operativos y las expectativas de rentabilidad. 
         p(data-aos="fade-left") A su vez, el Estado desempeña un papel fundamental en la regulación de la economía, interviniendo a través de impuestos, subsidios, regulaciones y políticas monetarias y fiscales, que buscan corregir fallos del mercado y garantizar la estabilidad económica. Estas interacciones permiten entender fenómenos como la inflación, que se produce cuando los precios suben debido a un exceso de demanda o a un aumento en los costos de producción, o el crecimiento económico, que depende de la capacidad de un país para incrementar su producción de bienes y servicios a lo largo del tiempo.
 
-    .bg-full-width.bg-h85
+    .bg-full-width.bg-h85.mb-5
       .px-4.px-md-5.pb-md-3
         .row.justify-content-center.align-items-center
           .col-lg-12
@@ -215,23 +215,23 @@
       .p-4.p-md-5
         SlyderA(tipo="b").bg-white
           .row.align-items-center.p-4.p-md-5
-            .col-lg-5.order-lg-2
+            .col-lg-5.order-lg-2.mb-3.mb-lg-0
               figure
                 img(src="@/assets/curso/tema1/20.png")
-            .col-lg-7.order-lg-1.mb-3.mb-lg-0
+            .col-lg-7.order-lg-1
               h5 Transacciones
               p En la vida diaria, la economía está presente en cada transacción que realizamos y en cada decisión financiera que tomamos. Cuando una persona elige qué productos comprar en un supermercado, está aplicando conceptos económicos como la comparación de precios, la relación entre calidad y costo, y el costo de oportunidad, que se refiere a lo que se deja de obtener, al elegir una opción sobre otra. De manera similar, cuando se decide entre gastar o ahorrar, se está considerando el impacto futuro de esa decisión y la posibilidad de invertir el dinero, para obtener un rendimiento.
     
           .row.align-items-center.p-4.p-md-5
-            .col-lg-5.order-lg-2
+            .col-lg-5.order-lg-2.mb-3.mb-lg-0
               figure
                 img(src="@/assets/curso/tema1/21.png")
-            .col-lg-7.order-lg-1.mb-3.mb-lg-0
+            .col-lg-7.order-lg-1
               h5 Ahorro e inversión
               p El ahorro y la inversión son dos prácticas económicas fundamentales que requieren un conocimiento básico de tasas de interés, inflación y mercado financiero. Una persona que ahorra para comprar una vivienda o financiar su educación, debe entender cómo el valor del dinero cambia con el tiempo y cómo las decisiones financieras pueden verse afectadas por factores externos. Por ejemplo, si la inflación aumenta, el dinero ahorrado perderá valor con el tiempo si no se invierte en opciones que generen rendimientos superiores a la tasa inflacionaria.
     
-    .row.mb-5
-      .col-lg-2.mb-3.mb-lg-0
+    .row.mb-5.justify-content-center
+      .col-md-6.col-lg-2.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema1/22.png", data-aos="zoom-in")
       .col-lg-10(data-aos="fade-left") 
@@ -308,6 +308,9 @@
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a(href="https://economiaparaprincipiantes.com" target="_blank" rel="noopener noreferrer") Economía para Principiantes. (s.f.). ¿Qué es la economía y cuál es su importancia? Economía para Principiantes. 
 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=Qb_D8ghfx80 " target="_blank" rel="noopener noreferrer") Aliende, I. (2023, 10 de enero). 10 conceptos de la Economía más importantes [Vídeo]. YouTube.  
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
               a(href="https://www.youtube.com/watch?v=mMjsXvpyMTQ " target="_blank" rel="noopener noreferrer") Mariacanovirtual. (2019, 6 de febrero). Video introductorio - Fundamentos de Economía [Vídeo]. YouTube. 

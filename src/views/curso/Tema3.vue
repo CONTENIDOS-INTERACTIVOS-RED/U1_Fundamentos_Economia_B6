@@ -6,19 +6,19 @@
     .row.mb-5
       .col-lg-4.mb-3.mb-lg-0
         .bg-color-2.tarjeta.p-3.h-100(data-aos="fade-left")
-          p(data-aos="fade-left") El modelo circular de la economía, es una herramienta fundamental para comprender cómo los diferentes actores económicos interactúan entre sí y cómo los recursos, bienes, servicios y el dinero, fluyen dentro del sistema económico. Su estructura permite visualizar de manera clara, la relación entre los hogares, las empresas y el gobierno, destacando los intercambios que se producen a través de dos grandes flujos: el flujo real y el flujo monetario (Jaén García, 2016).
+          p.mb-0(data-aos="fade-left") El modelo circular de la economía, es una herramienta fundamental para comprender cómo los diferentes actores económicos interactúan entre sí y cómo los recursos, bienes, servicios y el dinero, fluyen dentro del sistema económico. Su estructura permite visualizar de manera clara, la relación entre los hogares, las empresas y el gobierno, destacando los intercambios que se producen a través de dos grandes flujos: el flujo real y el flujo monetario (Jaén García, 2016).
       .col-lg-4.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema3/1.png" data-aos="zoom-in")
       .col-lg-4.mb-3.mb-lg-0
         .bg-color-1.tarjeta.p-3.h-100(data-aos="fade-left")
-          p(data-aos="fade-left") Este modelo es clave para analizar el funcionamiento de la economía en su conjunto, porque ayuda a identificar el impacto de variables como el consumo, la inversión, la producción y la intervención del gobierno en la estabilidad y el crecimiento económico. Su importancia radica en que permite entender cómo los ingresos generados en una parte del sistema se transforman en gastos en otra, estableciendo un ciclo continuo que mantiene en funcionamiento la economía.
+          p.mb-0(data-aos="fade-left") Este modelo es clave para analizar el funcionamiento de la economía en su conjunto, porque ayuda a identificar el impacto de variables como el consumo, la inversión, la producción y la intervención del gobierno en la estabilidad y el crecimiento económico. Su importancia radica en que permite entender cómo los ingresos generados en una parte del sistema se transforman en gastos en otra, estableciendo un ciclo continuo que mantiene en funcionamiento la economía.
 
     #t_3_1.titulo-segundo(data-aos="flip-up")
       h2 #[span 3.1] Representación del flujo de bienes, servicios y dinero
     
-    .row.mb-5
-      .col-lg-2.mb-3.mb-lg-0
+    .row.mb-5.justify-content-center
+      .col-md-6.col-lg-2.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema3/2.png", data-aos="zoom-in")
       .col-lg-10(data-aos="fade-left") 
@@ -32,7 +32,7 @@
             h2.mb-4(data-aos="flip-up") Representación del flujo de bienes, servicios y dinero 
             p.mb-4(data-aos="fade-right") El flujo de bienes, servicios y dinero es un concepto esencial para comprender el funcionamiento de la economía y la interacción entre los distintos agentes económicos. En el PDF <b>Representación</b>, se analiza cómo los hogares, las empresas y el gobierno participan en este proceso a través del intercambio de factores productivos, la generación de ingresos y el consumo de bienes y servicios. Además, se explora la relación entre el flujo real y el flujo monetario, así como el impacto de la inversión, el comercio exterior y las políticas económicas en la estabilidad y crecimiento de un país.
     
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -81,6 +81,9 @@
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
               a(href="https://www.youtube.com/watch?v=aqSa1G_nOXU " target="_blank" rel="noopener noreferrer") La biblioteca de Gero. (2025, 18 de febrero). El flujo circular de la economía [Vídeo]. YouTube. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=Rx3BNWEVBbw " target="_blank" rel="noopener noreferrer") Sustraendo h. (2016, 9 de enero). Flujo circular de la renta [Vídeo]. YouTube.  
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
