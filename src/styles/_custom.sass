@@ -24,6 +24,12 @@
     background-color: #E8EDF7
   &-4
     background-color: #E4F2F4
+  &-5
+    background-color: #D6F4E9
+  &-6
+    background-color: #D4DDF0
+  &-7
+    background-color: #CBE7EA
   &-info
     background-color: #E8EEFD
   &-sintesis
@@ -41,6 +47,25 @@
     height: 82%
     transform: translateY(-0%)
     background-color: #004A54
+    z-index: 0
+  .col-lg-12
+    z-index: 1
+  @media screen and (max-width: $bp-max-md)
+    padding: 1rem
+    &::after
+      bottom: 0
+      height: 100%
+.bg-h85-2
+  position: relative
+  &::after
+    content: ''
+    position: absolute
+    bottom: 4%
+    left: 0
+    width: 100%
+    height: 82%
+    transform: translateY(-0%)
+    background-color: #FAE6DA
     z-index: 0
   .col-lg-12
     z-index: 1
@@ -80,10 +105,13 @@
     background-image: url("../assets/bg/bg1.svg") !important
     background-position: top
   &-2
-    // background-image: url("../assets/bg/bg2.png") !important
+    background-image: url("../assets/bg/bg2.svg") !important
+    background-position: bottom
+  &-3
+    background-image: url("../assets/bg/bg3.svg") !important
     background-position: bottom
   &-slider
-    background-image: url("../assets/bg/bg-slider.png") !important
+    background-image: url("../assets/bg/bg-slider.svg") !important
     background-position: bottom
 
 // Variables
